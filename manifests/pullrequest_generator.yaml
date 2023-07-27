@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: mpyl-gh-example
+  name: mpyl-example-argocd
 spec:
   generators:
     - pullRequest:
