@@ -6,17 +6,17 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: https://github.com/SamTheisens/mpyl-gha-example.git
+        repoURL: https://github.com/SamTheisens/mpyl-example-argocd.git
         revision: HEAD
         directories:
-          - path: argocd/manifests/*
+          - path: manifests/*
   template:
     metadata:
       name: '{{path.basename}}'
     spec:
       project: default
       source:
-        repoURL: https://github.com/SamTheisens/mpyl-gha-example.git
+        repoURL: https://github.com/SamTheisens/mpyl-example-argocd.git
         targetRevision: HEAD
         path: '{{path}}'
       destination:

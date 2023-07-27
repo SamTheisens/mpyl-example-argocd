@@ -7,7 +7,7 @@ spec:
     - pullRequest:
         github:
           owner: SamTheisens
-          repo: mpyl-gha-example
+          repo: mpyl-example-argocd
           tokenRef:
             key: token
             secretName: github-token
@@ -22,7 +22,7 @@ spec:
       project: default
       source:
         path: argocd/manifests
-        repoURL: 'https://github.com/SamTheisens/mpyl-gha-example.git'
+        repoURL: 'https://github.com/SamTheisens/mpyl-example-argocd.git'
         targetRevision: '{{head_sha}}'
       syncPolicy:
         automated:
