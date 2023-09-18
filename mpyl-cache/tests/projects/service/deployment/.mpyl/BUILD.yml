@@ -1,9 +1,0 @@
-!Output
-success: true
-message: Dry run. Not pushing nodeservice:pr-123 to bigdataregistry.azurecr.io
-produced_artifact: !Artifact
-  artifact_type: !ArtifactType DOCKER_IMAGE-1
-  revision: 3c2c54e4278f431c4bd11d56168aabcff5108800
-  producing_step: After Docker Build
-  spec: !DockerImageSpec
-    image: bigdataregistry.azurecr.io/nodeservice:pr-123
