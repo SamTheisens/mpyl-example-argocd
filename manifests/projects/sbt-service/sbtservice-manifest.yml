@@ -15,7 +15,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-6
-    revision: 57b57f3d40ac941c493b6060504baf1dc412cc3f
+    revision: b6c87b70c3c16174bdacac6c7dd4ef71b4bb0047
   name: sbtservice
 spec:
   replicas: 1
@@ -39,7 +39,7 @@ spec:
         maintainers: MPyL
         maintainer: MPyL
         version: pr-6
-        revision: 57b57f3d40ac941c493b6060504baf1dc412cc3f
+        revision: b6c87b70c3c16174bdacac6c7dd4ef71b4bb0047
       name: sbtservice
     spec:
       containers:
@@ -91,7 +91,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-6
-    revision: 57b57f3d40ac941c493b6060504baf1dc412cc3f
+    revision: b6c87b70c3c16174bdacac6c7dd4ef71b4bb0047
   name: sbtservice
 spec:
   routes:
@@ -124,7 +124,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-6
-    revision: 57b57f3d40ac941c493b6060504baf1dc412cc3f
+    revision: b6c87b70c3c16174bdacac6c7dd4ef71b4bb0047
   name: sbtservice-ingress-0-whitelist
 spec:
   ipWhiteList:
@@ -146,7 +146,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-6
-    revision: 57b57f3d40ac941c493b6060504baf1dc412cc3f
+    revision: b6c87b70c3c16174bdacac6c7dd4ef71b4bb0047
   name: sbtservice
 spec:
   ports:
@@ -173,5 +173,5 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-6
-    revision: 57b57f3d40ac941c493b6060504baf1dc412cc3f
+    revision: b6c87b70c3c16174bdacac6c7dd4ef71b4bb0047
   name: sbtservice
