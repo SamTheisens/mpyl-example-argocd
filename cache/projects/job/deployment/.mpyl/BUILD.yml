@@ -3,7 +3,7 @@ success: true
 message: Pushed ghcr.io/samtheisens/job:pr-6
 produced_artifact: !Artifact
   artifact_type: !ArtifactType DOCKER_IMAGE-1
-  revision:
+  revision: 57b57f3d40ac941c493b6060504baf1dc412cc3f
   producing_step: After Docker Build
   spec: !DockerImageSpec
     image: ghcr.io/samtheisens/job:pr-6

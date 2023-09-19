@@ -4,7 +4,7 @@ message: Tests results produced for sbtservice (TestRunSummary(tests=1, failures
   errors=0, skipped=0))
 produced_artifact: !Artifact
   artifact_type: !ArtifactType JUNIT_TESTS-2
-  revision:
+  revision: 57b57f3d40ac941c493b6060504baf1dc412cc3f
   producing_step: sbtservice
   spec: !JunitTestSpec
     test_output_path: projects/sbt-service/target/test-reports
