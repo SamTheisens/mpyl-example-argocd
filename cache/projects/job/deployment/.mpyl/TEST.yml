@@ -3,7 +3,7 @@ success: true
 message: Tested job
 produced_artifact: !Artifact
   artifact_type: !ArtifactType JUNIT_TESTS-2
-  revision: b6c87b70c3c16174bdacac6c7dd4ef71b4bb0047
+  revision: cc9e0948a1b1c492c0ebff8cbdab36025af0f9e1
   producing_step: job
   spec: !JunitTestSpec
     test_output_path: projects/job/deployment/.mpyl/test_results

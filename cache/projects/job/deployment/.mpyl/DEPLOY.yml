@@ -3,7 +3,7 @@ success: true
 message: Wrote kubectl manifest to projects/job/target/kubernetes
 produced_artifact: !Artifact
   artifact_type: !ArtifactType KUBERNETES_MANIFEST-6
-  revision: b6c87b70c3c16174bdacac6c7dd4ef71b4bb0047
+  revision: cc9e0948a1b1c492c0ebff8cbdab36025af0f9e1
   producing_step: job
   spec: !KubernetesManifestSpec
     manifest_file_path: projects/job/target/kubernetes/job-manifest.yml
