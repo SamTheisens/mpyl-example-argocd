@@ -16,6 +16,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-6
+    revision: 57b57f3d40ac941c493b6060504baf1dc412cc3f
   name: nodeservice
 spec:
   replicas: 1
@@ -39,6 +40,7 @@ spec:
         maintainers: MPyL
         maintainer: MPyL
         version: pr-6
+        revision: 57b57f3d40ac941c493b6060504baf1dc412cc3f
       name: nodeservice
     spec:
       containers:
@@ -90,6 +92,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-6
+    revision: 57b57f3d40ac941c493b6060504baf1dc412cc3f
   name: nodeservice
 spec:
   routes:
@@ -131,6 +134,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-6
+    revision: 57b57f3d40ac941c493b6060504baf1dc412cc3f
   name: nodeservice-ingress-0-whitelist
 spec:
   ipWhiteList:
@@ -152,6 +156,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-6
+    revision: 57b57f3d40ac941c493b6060504baf1dc412cc3f
   name: nodeservice-ingress-1-whitelist
 spec:
   ipWhiteList:
@@ -174,6 +179,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-6
+    revision: 57b57f3d40ac941c493b6060504baf1dc412cc3f
   name: nodeservice
 spec:
   ports:
@@ -200,4 +206,5 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-6
+    revision: 57b57f3d40ac941c493b6060504baf1dc412cc3f
   name: nodeservice
