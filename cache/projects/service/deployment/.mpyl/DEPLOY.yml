@@ -3,7 +3,7 @@ success: true
 message: Wrote kubectl manifest to projects/service/target/kubernetes
 produced_artifact: !Artifact
   artifact_type: !ArtifactType DEPLOYED_HELM_APP-3
-  revision: 57b57f3d40ac941c493b6060504baf1dc412cc3f
+  revision: b6c87b70c3c16174bdacac6c7dd4ef71b4bb0047
   producing_step: nodeservice
   spec: !DeployedHelmAppSpec
     url: https://nodeservice-6.test.nl/
