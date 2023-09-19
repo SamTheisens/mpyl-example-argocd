@@ -1,0 +1,9 @@
+!Output
+success: true
+message: Pushed ghcr.io/samtheisens/sbtservice:pr-6
+produced_artifact: !Artifact
+  artifact_type: !ArtifactType DOCKER_IMAGE-1
+  revision:
+  producing_step: After Docker Build
+  spec: !DockerImageSpec
+    image: ghcr.io/samtheisens/sbtservice:pr-6

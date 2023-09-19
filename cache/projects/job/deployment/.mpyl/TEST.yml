@@ -1,0 +1,11 @@
+!Output
+success: true
+message: Tested job
+produced_artifact: !Artifact
+  artifact_type: !ArtifactType JUNIT_TESTS-2
+  revision:
+  producing_step: job
+  spec: !JunitTestSpec
+    test_output_path: projects/job/deployment/.mpyl/test_results
+    test_results_url: http://localhost:3000/
+    test_results_url_name:
