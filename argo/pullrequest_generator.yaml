@@ -4,25 +4,31 @@ metadata:
   name: mpyl-example-argocd
 spec:
   generators:
-    - pullRequest:
-        github:
-          owner: SamTheisens
-          repo: mpyl-example-argocd
-          tokenRef:
-            key: token
-            secretName: github-token
-        requeueAfterSeconds: 60
+    - matrix:
+        generators:
+          - pullRequest:
+              github:
+                owner: SamTheisens
+                repo: mpyl-example-argocd
+              requeueAfterSeconds: 60
+          - git:
+              repoURL: https://github.com/SamTheisens/mpyl-example-argocd.git
+              revision: '{{head_sha}}'
+              directories:
+                - path: manifests/projects/*
   template:
     metadata:
-      name: 'preview-{{number}}'
+      name: 'pr-{{number}}-{{path.basename}}'
+      labels:
+        pull-request: '{{number}}'
     spec:
       destination:
         namespace: 'pr-{{number}}'
         server: 'https://kubernetes.default.svc'
       project: default
       source:
-        path: argocd/manifests
-        repoURL: 'https://github.com/SamTheisens/mpyl-example-argocd.git'
+        path: '{{path}}'
+        repoURL: https://github.com/SamTheisens/mpyl-example-argocd.git
         targetRevision: '{{head_sha}}'
       syncPolicy:
         automated:

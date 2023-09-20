@@ -9,7 +9,7 @@ spec:
         repoURL: https://github.com/SamTheisens/mpyl-example-argocd.git
         revision: HEAD
         directories:
-          - path: manifests/*
+          - path: manifests/projects/*
   template:
     metadata:
       name: '{{path.basename}}'
