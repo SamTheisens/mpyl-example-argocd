@@ -10,10 +10,9 @@ metadata:
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: job
     app.kubernetes.io/instance: job
-    maintainers: MPyL
     maintainer: MPyL
     version: pr-6
-    revision: cc9e0948a1b1c492c0ebff8cbdab36025af0f9e1
+    revision: 1defdca089fcdf5aa515218f4d3159b64ae51afd
   name: job
 spec:
   jobTemplate:
@@ -28,10 +27,9 @@ spec:
             app.kubernetes.io/managed-by: Helm
             app.kubernetes.io/name: job
             app.kubernetes.io/instance: job
-            maintainers: MPyL
             maintainer: MPyL
             version: pr-6
-            revision: cc9e0948a1b1c492c0ebff8cbdab36025af0f9e1
+            revision: 1defdca089fcdf5aa515218f4d3159b64ae51afd
           name: job
         spec:
           containers:
@@ -63,8 +61,7 @@ metadata:
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: job
     app.kubernetes.io/instance: job
-    maintainers: MPyL
     maintainer: MPyL
     version: pr-6
-    revision: cc9e0948a1b1c492c0ebff8cbdab36025af0f9e1
+    revision: 1defdca089fcdf5aa515218f4d3159b64ae51afd
   name: job
