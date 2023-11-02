@@ -14,7 +14,7 @@ metadata:
     app.kubernetes.io/instance: sbtservice
     maintainer: MPyL
     version: pr-6
-    revision: 1defdca089fcdf5aa515218f4d3159b64ae51afd
+    revision: 5e0a0ee085c63bb64c6eeab9d042da12ef211344
   name: sbtservice
 spec:
   replicas: 1
@@ -37,7 +37,7 @@ spec:
         app.kubernetes.io/instance: sbtservice
         maintainer: MPyL
         version: pr-6
-        revision: 1defdca089fcdf5aa515218f4d3159b64ae51afd
+        revision: 5e0a0ee085c63bb64c6eeab9d042da12ef211344
       name: sbtservice
     spec:
       containers:
@@ -88,7 +88,7 @@ metadata:
     app.kubernetes.io/instance: sbtservice
     maintainer: MPyL
     version: pr-6
-    revision: 1defdca089fcdf5aa515218f4d3159b64ae51afd
+    revision: 5e0a0ee085c63bb64c6eeab9d042da12ef211344
   name: sbtservice-ingress-0-https
 spec:
   routes:
@@ -120,7 +120,7 @@ metadata:
     app.kubernetes.io/instance: sbtservice
     maintainer: MPyL
     version: pr-6
-    revision: 1defdca089fcdf5aa515218f4d3159b64ae51afd
+    revision: 5e0a0ee085c63bb64c6eeab9d042da12ef211344
   name: sbtservice-ingress-0-whitelist
 spec:
   ipWhiteList:
@@ -141,7 +141,7 @@ metadata:
     app.kubernetes.io/instance: sbtservice
     maintainer: MPyL
     version: pr-6
-    revision: 1defdca089fcdf5aa515218f4d3159b64ae51afd
+    revision: 5e0a0ee085c63bb64c6eeab9d042da12ef211344
   name: sbtservice
 spec:
   ports:
@@ -167,5 +167,5 @@ metadata:
     app.kubernetes.io/instance: sbtservice
     maintainer: MPyL
     version: pr-6
-    revision: 1defdca089fcdf5aa515218f4d3159b64ae51afd
+    revision: 5e0a0ee085c63bb64c6eeab9d042da12ef211344
   name: sbtservice
