@@ -1,0 +1,9 @@
+!Output
+success: true
+message: Wrote kubectl manifest to projects/service/target/kubernetes
+produced_artifact: !Artifact
+  artifact_type: !ArtifactType DEPLOYED_HELM_APP-3
+  revision: 5e0a0ee085c63bb64c6eeab9d042da12ef211344
+  producing_step: nodeservice
+  spec: !DeployedHelmAppSpec
+    url: https://nodeservice-6.test.nl/swagger/index.html
