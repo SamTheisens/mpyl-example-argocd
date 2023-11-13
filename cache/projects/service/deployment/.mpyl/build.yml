@@ -1,0 +1,9 @@
+!Output
+success: true
+message: Pushed ghcr.io/samtheisens/nodeservice:pr-9
+produced_artifact: !Artifact
+  artifact_type: !ArtifactType DOCKER_IMAGE-1
+  revision: 29747ea49945e3ddfa091eb8f2ebb03013275273
+  producing_step: After Docker Build
+  spec: !DockerImageSpec
+    image: ghcr.io/samtheisens/nodeservice:pr-9
