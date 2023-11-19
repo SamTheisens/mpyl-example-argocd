@@ -1,0 +1,12 @@
+!Output
+success: true
+message: Tests results produced for nodeservice (TestRunSummary(tests=1, failures=0,
+  errors=0, skipped=0))
+produced_artifact: !Artifact
+  artifact_type: !ArtifactType JUNIT_TESTS-2
+  revision: f65c69e25f4b7332daa16ff45537f634ac7f36cf
+  producing_step: nodeservice
+  spec: !JunitTestSpec
+    test_output_path: projects/service/target/test-reports
+    test_results_url: http://localhost:3000/
+    test_results_url_name:

@@ -1,0 +1,9 @@
+!Output
+success: true
+message: Wrote kubectl manifest to projects/service/target/kubernetes/k8s-manifests/nodeservice/test/pr-8
+produced_artifact: !Artifact
+  artifact_type: !ArtifactType DEPLOYED_HELM_APP-3
+  revision: f65c69e25f4b7332daa16ff45537f634ac7f36cf
+  producing_step: nodeservice
+  spec: !DeployedHelmAppSpec
+    url: https://nodeservice-8.test.nl/swagger/index.html
