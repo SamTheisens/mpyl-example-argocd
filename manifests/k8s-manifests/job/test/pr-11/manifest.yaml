@@ -12,7 +12,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-11
-    revision: b5210c79b65be5f5e7cd84917a725bc27e6c4af6
+    revision: 86f6b49e702ea8beab1e50805655a20d19295b37
   name: job
 spec:
   jobTemplate:
@@ -29,7 +29,7 @@ spec:
             maintainers: MPyL
             maintainer: MPyL
             version: pr-11
-            revision: b5210c79b65be5f5e7cd84917a725bc27e6c4af6
+            revision: 86f6b49e702ea8beab1e50805655a20d19295b37
           name: job
         spec:
           containers:
@@ -64,5 +64,5 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-11
-    revision: b5210c79b65be5f5e7cd84917a725bc27e6c4af6
+    revision: 86f6b49e702ea8beab1e50805655a20d19295b37
   name: job

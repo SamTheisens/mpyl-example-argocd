@@ -1,4 +1,4 @@
 cluster: test
 repository: SamTheisens/mpyl-example-argocd
-revision: b5210c79b65be5f5e7cd84917a725bc27e6c4af6
+revision: 86f6b49e702ea8beab1e50805655a20d19295b37
 tag: pr-11

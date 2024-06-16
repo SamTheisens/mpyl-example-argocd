@@ -15,7 +15,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-11
-    revision: b5210c79b65be5f5e7cd84917a725bc27e6c4af6
+    revision: 86f6b49e702ea8beab1e50805655a20d19295b37
   name: nodeservice
 spec:
   replicas: 1
@@ -38,7 +38,7 @@ spec:
         maintainers: MPyL
         maintainer: MPyL
         version: pr-11
-        revision: b5210c79b65be5f5e7cd84917a725bc27e6c4af6
+        revision: 86f6b49e702ea8beab1e50805655a20d19295b37
       name: nodeservice
     spec:
       containers:
@@ -89,7 +89,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-11
-    revision: b5210c79b65be5f5e7cd84917a725bc27e6c4af6
+    revision: 86f6b49e702ea8beab1e50805655a20d19295b37
   name: nodeservice-ingress-0-http
 spec:
   routes:
@@ -117,7 +117,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-11
-    revision: b5210c79b65be5f5e7cd84917a725bc27e6c4af6
+    revision: 86f6b49e702ea8beab1e50805655a20d19295b37
   name: nodeservice-ingress-0-https
 spec:
   routes:
@@ -151,7 +151,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-11
-    revision: b5210c79b65be5f5e7cd84917a725bc27e6c4af6
+    revision: 86f6b49e702ea8beab1e50805655a20d19295b37
   name: nodeservice-ingress-0-whitelist
 spec:
   ipWhiteList:
@@ -170,7 +170,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-11
-    revision: b5210c79b65be5f5e7cd84917a725bc27e6c4af6
+    revision: 86f6b49e702ea8beab1e50805655a20d19295b37
   name: nodeservice-ingress-1-http
 spec:
   routes:
@@ -198,7 +198,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-11
-    revision: b5210c79b65be5f5e7cd84917a725bc27e6c4af6
+    revision: 86f6b49e702ea8beab1e50805655a20d19295b37
   name: nodeservice-ingress-1-https
 spec:
   routes:
@@ -229,7 +229,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-11
-    revision: b5210c79b65be5f5e7cd84917a725bc27e6c4af6
+    revision: 86f6b49e702ea8beab1e50805655a20d19295b37
   name: nodeservice-ingress-1-whitelist
 spec:
   ipWhiteList:
@@ -251,7 +251,7 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-11
-    revision: b5210c79b65be5f5e7cd84917a725bc27e6c4af6
+    revision: 86f6b49e702ea8beab1e50805655a20d19295b37
   name: nodeservice
 spec:
   ports:
@@ -277,5 +277,5 @@ metadata:
     maintainers: MPyL
     maintainer: MPyL
     version: pr-11
-    revision: b5210c79b65be5f5e7cd84917a725bc27e6c4af6
+    revision: 86f6b49e702ea8beab1e50805655a20d19295b37
   name: nodeservice
