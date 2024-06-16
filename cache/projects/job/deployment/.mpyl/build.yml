@@ -1,0 +1,10 @@
+!Output
+success: true
+message: Pushed ghcr.io/samtheisens/job:pr-11
+produced_artifact: !Artifact
+  artifact_type: !ArtifactType DOCKER_IMAGE-1
+  revision: 86f6b49e702ea8beab1e50805655a20d19295b37
+  producing_step: After Docker Build
+  spec: !DockerImageSpec
+    image: ghcr.io/samtheisens/job:pr-11
+  hash: 12c18db88adbe87e38d1895e5b27aeeab4a97d36c11cfa57943d8128f2a3ea06
