@@ -1,10 +1,10 @@
 !Output
 success: true
-message: Pushed ghcr.io/samtheisens/kong-sync:pr-13
+message: Pushed ghcr.io/samtheisens/sbtservice:pr-13
 produced_artifact: !Artifact
   artifact_type: !ArtifactType DOCKER_IMAGE-1
   revision: 5e1dc179beb5f0701d9065d802339c46921a5509
   producing_step: After Docker Build
   spec: !DockerImageSpec
-    image: ghcr.io/samtheisens/kong-sync:pr-13
-  hash: d2408c2f53f818a9c41cd283f0ddbd55e56e2d966f03f8c4ab97da0cd8d9ec90
+    image: ghcr.io/samtheisens/sbtservice:pr-13
+  hash: f5e4737c18a39de94cb9b2910f94f1d611d6fde50d8e9fc7d6ff465bfe5229f0

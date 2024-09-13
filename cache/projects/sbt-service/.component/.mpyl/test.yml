@@ -1,0 +1,18 @@
+!Output
+success: true
+message: Tests results produced for sbtservice (TestRunSummary(tests=1, failures=0,
+  errors=0, skipped=0))
+produced_artifact: !Artifact
+  artifact_type: !ArtifactType JUNIT_TESTS-2
+  revision: 5e1dc179beb5f0701d9065d802339c46921a5509
+  producing_step: sbtservice
+  spec: !JunitTestSpec
+    test_output_path: projects/sbt-service/target/test-reports
+    test_results_url: http://localhost:3000/
+    test_results_url_name:
+    test_results_summary: !TestRunSummary
+      tests: 1
+      failures: 0
+      errors: 0
+      skipped: 0
+  hash: f5e4737c18a39de94cb9b2910f94f1d611d6fde50d8e9fc7d6ff465bfe5229f0
