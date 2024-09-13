@@ -1,0 +1,4 @@
+cluster: test
+repository: SamTheisens/mpyl-example-argocd
+revision: 5e1dc179beb5f0701d9065d802339c46921a5509
+tag: pr-13
