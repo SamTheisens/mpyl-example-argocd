@@ -3,7 +3,7 @@ success: true
 message: Built gradle1
 produced_artifact: !Artifact
   artifact_type: !ArtifactType ARCHIVE-7
-  revision: 6e30e9ebd0a4f027f9a670ffd44a565b1ba8c58a
+  revision: 840f59ff5f4adf0f8dd7c195a3990a0a679bc624
   producing_step: gradle1
   spec: !ArchiveSpec
     archive_path: projects/gradle1/build/libs/gradle1.jar
