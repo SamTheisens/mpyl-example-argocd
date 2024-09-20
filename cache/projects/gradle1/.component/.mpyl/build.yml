@@ -1,0 +1,10 @@
+!Output
+success: true
+message: Built gradle1
+produced_artifact: !Artifact
+  artifact_type: !ArtifactType ARCHIVE-7
+  revision: 6e30e9ebd0a4f027f9a670ffd44a565b1ba8c58a
+  producing_step: gradle1
+  spec: !ArchiveSpec
+    archive_path: projects/gradle1/build/libs/gradle1.jar
+  hash: 213a78eb2f9fbeb9b7d884231464f0893a7a1e0fe1b8f40be79404d34180ed2c
