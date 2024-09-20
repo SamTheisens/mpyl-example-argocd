@@ -1,0 +1,17 @@
+!Output
+success: true
+message: Tested gradle1
+produced_artifact: !Artifact
+  artifact_type: !ArtifactType JUNIT_TESTS-2
+  revision: 153ed70d450cb0f8bd66ca49736b38363e6a20e1
+  producing_step: gradle1
+  spec: !JunitTestSpec
+    test_output_path: projects/gradle1/build/test-results/test
+    test_results_url:
+    test_results_url_name:
+    test_results_summary: !TestRunSummary
+      tests: 1
+      failures: 0
+      errors: 0
+      skipped: 0
+  hash: 149471a1df77374b6bf1b2daef8de47e4aaa759bf5d88d4227f11149b25471a5
