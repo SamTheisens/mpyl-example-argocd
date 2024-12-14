@@ -1,0 +1,10 @@
+!Output
+success: true
+message: Wrote kubectl manifest to projects/sbt-service/target/kubernetes
+produced_artifact: !Artifact
+  artifact_type: !ArtifactType DEPLOYED_HELM_APP-3
+  revision: 5e1dc179beb5f0701d9065d802339c46921a5509
+  producing_step: sbtservice
+  spec: !DeployedHelmAppSpec
+    url: https://sbtservice-13.test.nl/swagger/index.html
+  hash: f5e4737c18a39de94cb9b2910f94f1d611d6fde50d8e9fc7d6ff465bfe5229f0

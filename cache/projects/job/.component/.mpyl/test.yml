@@ -1,0 +1,13 @@
+!Output
+success: true
+message: Tested job
+produced_artifact: !Artifact
+  artifact_type: !ArtifactType JUNIT_TESTS-2
+  revision: 5e1dc179beb5f0701d9065d802339c46921a5509
+  producing_step: job
+  spec: !JunitTestSpec
+    test_output_path: projects/job/.component/.mpyl/test_results
+    test_results_url: http://localhost:3000/
+    test_results_url_name:
+    test_results_summary:
+  hash: 581c42e22defb798bb65481f07372b746a4d17fe5ab5b1044445f71a4af2cce5
